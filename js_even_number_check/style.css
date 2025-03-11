@@ -1,0 +1,36 @@
+:root {
+    background-color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    padding: 3em 1em 0;
+}
+
+.input {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5em;
+}
+
+.button {
+    color: aliceblue;
+    background-color: #333333;
+}
+
+#number-input {
+    color: aliceblue;
+    background-color: #333333;
+}
+
+#returns-header {
+    visibility: hidden;
+}
+
+.head-text {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin: .2em 0 0 0;
+}
