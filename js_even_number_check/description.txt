@@ -1,0 +1,1 @@
+Simple html + js page to check if number is even
