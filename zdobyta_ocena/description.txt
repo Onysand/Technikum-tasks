@@ -1,0 +1,1 @@
+Counts mark from points got and max possible points
