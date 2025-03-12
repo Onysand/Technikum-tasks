@@ -1,0 +1,74 @@
+:root {
+    --primary: #212121;
+
+    --header-size: 1.5em;
+    --header-color: aliceblue;
+
+    --input-bg-color: #313131;
+    --input-placeholder-color: rgba(255, 255, 255, 0.6);
+    --input-color: aliceblue;
+    --input-font-size: 1em;
+    --input-gap: .3em;
+}
+
+body {
+    background-color: var(--primary);
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: var(--header-size);
+    color: var(--header-color);
+}
+
+.input-block {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+}
+
+.result-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    visibility: hidden;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 50%;
+    flex-flow: column nowrap;
+    gap: var(--input-gap);
+}
+
+.input-button {
+    margin: .3em 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+input {
+    height: 25px;
+    background-color: var(--input-bg-color);
+    color: var(--input-color);
+    font-size: var(--input-font-size);
+    border: 0;
+}
+
+input::placeholder {
+    color: var(--input-placeholder-color);
+    text-shadow: 3px 2px 5px black;
+    padding-left: .5em;
+}
