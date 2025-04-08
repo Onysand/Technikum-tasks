@@ -1,0 +1,1 @@
+Showing up input number rounded with 4 differend methods
