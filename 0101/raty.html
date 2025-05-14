@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursy komputerowe - Koszt rat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="baner.jpg" alt="kursy komputerowe">
+    </header>
+
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="raty.html">Koszt rat</a>
+        <a href="https://moje-szkolenia.pl/">Nasz partner</a>
+    </nav>
+
+    <main>
+        <section>
+            <h3>Oblicz miesięczną ratę</h3>
+
+            <form id="rate-form">
+                <div>
+                    <label for="kurs-react">Kurs React.js</label>
+                    <input type="checkbox" id="kurs-react" class="kontrolki">
+                </div>
+
+                <div>
+                    <label for="kurs-javascript">Kurs JavaScript</label>
+                    <input type="checkbox" id="kurs-javascript" class="kontrolki">
+                </div>
+
+                <div>
+                    <label for="liczba-rat">Liczba rat:</label>
+                    <input type="number" id="liczba-rat" class="kontrolki">
+                </div> 
+
+                <div>
+                    <label for="miasto">Miasto:</label>
+                    <select id="miasto" class="kontrolki">
+                        <option value="Warszawa">Warszawa</option>
+                        <option value="Katowice">Katowice</option>
+                        <option value="Gdańsk">Gdańsk</option>
+                    </select>
+                </div> 
+                
+                <button type="button" id="oblicz">Oblicz</button>
+            </form>
+
+            <p id="wynik"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Autor strony: Ivan Shykhov</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
