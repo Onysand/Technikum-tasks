@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Montaż paneli podłogowych</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="montaz_paneli.png" alt="firma usługowa">
+    </header>
+
+    <nav>
+        <a href="index.html">Strona Główna</a>
+        <a href="oferta.html">Oferta</a>
+        <a href="koszty.html">Kalkulator kosztów</a>
+    </nav>
+
+    <main>
+        <h1>Kalkulator kosztów montażu</h1>
+        <label>Szerokość pomieszczenia [m]: <input type="number" id="szer" step="0.01"></label>
+        <label>Długość pomieszczenia [m]: <input type="number" id="dl" step="0.01"></label>
+        <p>Typ panelu</p>
+        <label><input type="radio" name="typ" value="laminowane"> Panele laminowane</label><br>
+        <label><input type="radio" name="typ" value="winylowe"> Panele winylowe</label><br>
+        <label><input type="radio" name="typ" value="deska"> Deska podłogowa</label><br>
+        <button onclick="obliczKoszt()">Oblicz</button>
+        <p id="wynik"></p>
+    </main>
+
+    <footer>
+        <h5>Autor strony: Ivan Shykhov</h5>
+    </footer>
+</body>
+</html>
