@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Obuwie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Internetowy sklep z obuwiem</h1>
+    </header>
+    <main>
+        <form action="zamow.php" method="post">
+            <label>Model:
+                <select name="model" class="kontrolka">
+                    <?php foreach ($models as $model): ?>
+                    <option>
+                        <?= $model ?>
+                    </option>
+                    <?php endforeach; ?>
+                </select>
+            </label>
+
+            <label>Rozmiar:
+                <select name="rozmiar" class="kontrolka">
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                </select>
+            </label>
+
+            <label>Liczba par:
+                <input type="number" name="liczba_par" class="kontrolka">
+            </label>
+
+            <input type="submit" value="Zamów" class="kontrolka">
+        </form>
+        <div class="buty">
+            <img src="but1.png" alt="but męski">
+            <h3>But 1</h3>
+            <p>Model: 1</p>
+            <h4>188.0</h4>
+        </div>
+        <div class="buty">
+            <img src="but2.png" alt="but męski">
+            <h3>But 2</h3>
+            <p>Model: 2</p>
+            <h4>188.0</h4>
+        </div>
+        <div class="buty">
+            <img src="but3.png" alt="but męski">
+            <h3>But 3</h3>
+            <p>Model: 3</p>
+            <h4>188.0</h4>
+        </div>
+        <div class="buty">
+            <img src="but4.png" alt="but męski">
+            <h3>But 4</h3>
+            <p>Model: 4</p>
+            <h4>188.0</h4>
+        </div>
+    </main>
+    <footer>
+        <p>Autor strony: Ivan Shykhov</p>
+    </footer>
+</body>
+
+</html>
