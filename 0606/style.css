@@ -1,0 +1,56 @@
+body {
+    font-family: Georgia, serif;
+    color: white;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex; 
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+
+#blokLewy {
+    width: 30%; 
+    height: 350px;
+    background-color: #A26475;
+}
+
+#blokSrodkowy {
+    width: 30%;
+    height: 350px;
+    background-color: #824555;
+}
+
+#blokPrawy {
+    width: 40%; 
+    height: 350px; 
+    overflow: auto;
+    background-color: #A26470;
+    overflow: auto;
+}
+
+img {
+    float: left;
+    width: 50px;
+}
+
+table, p, dt {
+    margin: 10px;
+}
+
+dt {
+    padding-top: 20px;
+}
+
+td, th {
+    border: 3px solid #824555;
+    padding: 5px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="cyfry.gif" alt="Cyfry szesnastkowe">
+        <h1>Pozycyjne systemy liczbowe</h1>
+    </header>
+
+    <main>
+        <section id="blokLewy">
+            <table>
+                <tr>
+                    <th>System</th>
+                    <th>Bazowa</th>
+                    <th>Przykład</th>
+                </tr>
+                <tr>
+                    <td>Dwójkowy</td>
+                    <td>2</td>
+                    <td>1010</td>
+                </tr>
+                <tr>
+                    <td>Ósemkowy</td>
+                    <td>8</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Dziesiętny</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Szesnastkowy</td>
+                    <td>16</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Piętnastkowy</td>
+                    <td>15</td>
+                    <td>E</td>
+                </tr>
+                <tr>
+                    <td>Trójkowy</td>
+                    <td>3</td>
+                    <td>102</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="blokSrodkowy">
+            <div id="num-input">
+                <input type="text" id="liczba" placeholder="Wpisz liczbę dziesiętną">
+                <button onclick="toBinary()">Przelicz na binarny</button>
+            </div>
+            <p id="wynik">Brak obliczeń</p>
+        </section>
+
+        <section id="blokPrawy">
+            <h2>Słowniczek</h2>
+            <dl>
+                <dt><a href="https://szesnastkowy_system_liczbowy.pl" target="_blank">Heksadecymalny</a></dt>
+                <dd>System liczbowy o podstawie 16, wykorzystujący cyfry 0–9 oraz litery A–F.</dd>
+                <dt>Binarny</dt>
+                <dd>System liczbowy o podstawie 2, wykorzystujący tylko cyfry 0 i 1.</dd>
+                <dt>Pozycyjny</dt>
+                <dd>System, w którym wartość cyfry zależy od jej pozycji.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>Stronę opracował: <i>Ivan Shykhov</i></p>
+    </footer>
+
+</body>
+
+</html>
