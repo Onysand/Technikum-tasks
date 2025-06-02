@@ -1,0 +1,76 @@
+* {
+    font-family: Georgia, serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.baner, .stopka {
+    background-color: maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lewy, .prawy {
+    background-color: lightSalmon;
+    height: 527px;
+    width: 15%;
+}
+
+.srodkowy {
+    background-color: lightSalmon;
+    height: 527px;
+    width: 70%;
+    text-align: center;
+}
+
+.miniatury {
+    background-color: maroon;
+    height: 70px;
+    text-align: center;
+    padding: 5px;
+}
+
+.miniatury img {
+    height: 70px;
+    margin: 0 5px;
+    animation: slideIn 4s infinite;
+    position: relative;
+}
+
+@keyframes slideIn {
+    from {
+        padding-left: 50px;
+    }
+    to {
+        padding-left: 0px;
+    }
+}
+
+button {
+    background-color: lightSalmon;
+    color: maroon;
+    font-size: 400%;
+    border: none;
+    display: block;
+    margin: 210px auto 0;
+    padding: 10px 20px;
+}
+
+.srodkowy img {
+    display: block;
+    margin: 45px auto 0;
+    transition-duration: 5s;
+}
+
+.srodkowy img:hover {
+    transform: scale(1.2);
+}
