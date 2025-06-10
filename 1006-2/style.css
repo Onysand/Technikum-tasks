@@ -1,0 +1,67 @@
+:root {
+    background: #212121;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    transition: .3s ease;
+    width: 300px;
+}
+
+button {
+    border: none;
+    border-radius: 99em;
+    padding: .4em;
+    background: aliceblue;
+    color: #232323;
+    font-weight: bold;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.font-1 {
+    font-size: 1em;
+}
+
+.font-1-5 {
+    font-size: 1.5em;
+}
+
+.font-courier {
+    font-family: "Courier New", sans-serif;
+}
+
+.font-arial {
+    font-family: Arial, sans-serif;
+}
+
+.strikeThrough {
+    text-decoration: #fff line-through;
+}
+
+.white-bg {
+    background: aliceblue;
+    color: #232323;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+.grey {
+    filter: grayscale(100%);
+}
