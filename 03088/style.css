@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: LightSteelBlue;
+}
+
+.form-section {
+    padding-top: 20px;
+}
+
+main {
+    overflow: auto;
+    padding: 30px;
+    height: 400px;
+}
+
+footer {
+    position: static;
+    background-color: Orange;
+    padding: 10px;
+}
+
+img {
+    width: 80%;
+}
+
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted Maroon;
+}
+
+table th, table td {
+    padding: 8px;
+}
+
+table tr:hover {
+    background-color: SteelBlue;
+    color: white;
+}

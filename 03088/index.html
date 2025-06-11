@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mieszalnia farb</title>
+    <link rel="icon" href="fav.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="baner.png" alt="Mieszalnia farb">
+    </header>
+
+    <section class="form-section">
+        <form action="index.html" method="post">
+            <label for="data_od">Data odbioru od: </label>
+            <input type="date" id="data_od" name="data_od">
+            <label for="data_do">do: </label>
+            <input type="date" id="data_do" name="data_do">
+            <button type="submit">Wyszukaj</button>
+        </form>
+    </section>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nr zamówienia</th>
+                    <th>Nazwisko</th>
+                    <th>Imię</th>
+                    <th>Kolor</th>
+                    <th>Pojemność [ml]</th>
+                    <th>Data odbioru</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7</td>
+                    <td>Winiarski</td>
+                    <td>Patryk</td>
+                    <td style="background-color: #0fc3c5;">0fc3c5</td>
+                    <td>1000</td>
+                    <td>2021-11-06</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ozimek</td>
+                    <td>Krzysztof</td>
+                    <td style="background-color: #FFFFFF;">FFFFFF</td>
+                    <td>100</td>
+                    <td>2021-11-07</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Skalski</td>
+                    <td>Robert</td>
+                    <td style="background-color: #3df557;">3df557</td>
+                    <td>1000</td>
+                    <td>2021-11-10</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <h3>Egzamin INF.03</h3>
+        <p>Autor: Shykhov Ivan</p>
+    </footer>
+</body>
+
+</html>
