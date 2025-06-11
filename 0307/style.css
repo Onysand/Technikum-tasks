@@ -1,0 +1,70 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: LightSalmon;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bottom {
+    display: block;
+    background-color: DarkSalmon;
+    height: 100px;
+}
+
+header {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.left-top {
+    width: 30%;
+    height: 400px;
+}
+
+.left-bottom {
+    width: 30%;
+    height: 100%;
+}
+
+.right {
+    background-color: DarkSalmon;
+    width: 70%;
+    height: 500px;
+    overflow: auto;
+}
+
+.filter-text {
+    font-style: italic;
+    font-size: 200%;
+    padding: 10px;
+}
+
+.filter-text:hover {
+    color: GhostWhite;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    border: 1px dotted Maroon;
+}
+
+td {
+    border: 1px dotted Maroon;
+}
